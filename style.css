@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #202020;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: #2d2d2d;
+}
+
+#gameSelect {
+    min-width: 280px;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
+#reloadButton {
+    min-width: 100px;
+    padding: 8px 14px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background: #444444;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#reloadButton:hover:not(:disabled) {
+    background: #555555;
+}
+
+#reloadButton:disabled {
+    cursor: wait;
+    opacity: 0.6;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    padding: 16px;
+}
+
+ruffle-player {
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    height: calc(100vh - 92px);
+    min-height: 600px;
+    background: #000000;
+}
+
+#errorMessage {
+    padding: 24px;
+    color: #ffb4b4;
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    #toolbar {
+        flex-direction: column;
+    }
+
+    #gameSelect,
+    #reloadButton {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #gameContainer {
+        min-height: calc(100vh - 112px);
+        padding: 8px;
+    }
+
+    ruffle-player {
+        height: calc(100vh - 128px);
+        min-height: 480px;
+    }
+}

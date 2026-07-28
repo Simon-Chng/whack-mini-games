@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Whack Mini Games</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="ruffle-0.4.1-web-selfhosted/ruffle.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="toolbar">
+        <select id="gameSelect" aria-label="Select a game">
+            <option value="games/dont-whack-your-teacher-unlocked.swf">
+                Don't Whack Your Teacher
+            </option>
+
+            <option value="games/whack-the-thief.swf">
+                Whack the Thief
+            </option>
+
+            <option value="games/whack-your-boss.swf">
+                Whack Your Boss
+            </option>
+
+            <option value="games/whack-your-computer.swf">
+                Whack Your Computer
+            </option>
+
+            <option value="games/whack-your-ex.swf">
+                Whack Your Ex
+            </option>
+        </select>
+
+        <button
+            id="reloadButton"
+            type="button"
+            aria-label="Reload the selected game"
+        >
+            Load Game
+        </button>
+    </div>
+
+    <div id="gameContainer"></div>
+</body>
+</html>
