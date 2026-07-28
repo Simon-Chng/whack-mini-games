@@ -7,14 +7,14 @@ This repository is intended to help preserve and run these legacy Flash games on
 ## 🎮 Included Games
 
 1. Don't Whack Your Teacher *(Unlocked)* (published on [BOX10.COM](https://www.box10.com/))
-2. Whack the Thief (published on [BOX10.COM](https://www.box10.com/))
+2. Whack the Thief *(Unlocked)* (published on [BOX10.COM](https://www.box10.com/))
 3. Whack Your Boss (created by [Tom Winkler](https://doodie.com/))
 4. Whack Your Computer (created by [Tom Winkler](https://doodie.com/))
 5. Whack Your Ex (created by [Tom Winkler](https://doodie.com/))
 
 ## 📒 Note
 
-🔓 The included version of **Don't Whack Your Teacher** has been patched by me to remove the original site lock, allowing access to all original weapons. No gameplay content has been modified.
+🔓 **Don't Whack Your Teacher** and **Whack the Thief** have been patched by me to remove the original site lock, allowing access to all original weapons. No gameplay content has been modified.
 
 ## ⚙️ Requirements
 
